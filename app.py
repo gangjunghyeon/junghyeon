@@ -29,7 +29,7 @@ import streamlit as st
 import openai
 
 # OpenAI API 키 설정
-openai.api_key = st.secrets["OPENAI_API_KEY"]
+openai.api_key = st.secrets[sk-proj-49djuWDxDdMfseFzHufwT3BlbkFJUmOr3Q2fIxAeUZM6LzzO]
 
 # 동일한 프롬프트에 대해 결과를 캐싱하는 함수
 @st.cache(allow_output_mutation=True)
