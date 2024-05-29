@@ -1,7 +1,7 @@
 import streamlit as st
 import openai
 
-# OpenAI API 키 설정
+
 openai.api_key = st.secrets["OPENAI_API_KEY"]
 
 def get_gpt3_response(prompt):
@@ -13,7 +13,7 @@ def get_gpt3_response(prompt):
     )
     return response.choices[0].message['content']
 
-# Streamlit UI 설정
+
 st.title("GPT-3.5 Turbo Chatbot")
 
 user_input = st.text_area("Ask a question:")
