@@ -2,7 +2,7 @@ import streamlit as st
 import openai
 
 
-openai.api_key = st.secrets["OPENAI_API_KEY"]
+openai.api_key = st.secrets[sk-proj-49djuWDxDdMfseFzHufwT3BlbkFJUmOr3Q2fIxAeUZM6LzzO]
 
 def get_gpt3_response(prompt):
     response = openai.ChatCompletion.create(
